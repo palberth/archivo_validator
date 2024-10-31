@@ -1,0 +1,29 @@
+<!-- validator/templates/upload.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File</title>
+</head>
+<body>
+    <h1>Subir archivo CSV</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Subir</button>
+    </form>
+
+    {% if errors %}
+        <h2>Errores de validación:</h2>
+        <ul>
+            {% for error in errors %}
+                <li>Fila {{ error.0 }}, Columna {{ error.1 }}: {{ error.2 }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if success %}
+        <h2>{{ success }}</h2>
+    {% endif %}
+</body>
+</html>
