@@ -51,13 +51,13 @@ Este es un proyecto de Django que permite subir un archivo CSV, validar su estru
 ## Uso
 
     Sube un archivo CSV siguiendo el formato adecuado en la página. Usa los archivos de prueba dispuestos en el repositorio
-        -1. Invalido
-        -2. ValidoNotAll
-        -3. ValidoAll
+        - 1. Invalido
+        - 2. ValidoNotAll
+        - 3. ValidoAll
 
     Si el archivo es válido, verás un mensaje de éxito. Si hay errores, se mostrarán con la fila y columna donde ocurrieron.
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
