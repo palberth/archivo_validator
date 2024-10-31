@@ -14,6 +14,7 @@ Este es un proyecto de Django que permite subir un archivo CSV, validar su estru
 
 - Python 3.12 o superior
 - pip (gestor de paquetes de Python)
+- Las librerías necesarias se encuentran en el archivo `requirements.txt`.
 
 ## Instalación
 
