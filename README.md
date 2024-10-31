@@ -33,12 +33,14 @@ Este es un proyecto de Django que permite subir un archivo CSV, validar su estru
 3. **Configuración del proyecto**
 
     Crea las migraciones iniciales y configura la base de datos de Django:
-        python manage.py migrate
+    ```bash
+    python manage.py migrate
 
 4. **Ejecutar el servidor de desarrollo**
 
      Inicia el servidor de desarrollo de Django:
-        python manage.py runserver
+    ```bash
+    python manage.py runserver
 
 5. **Acceder a la aplicación**
 
