@@ -28,7 +28,8 @@ Este es un proyecto de Django que permite subir un archivo CSV, validar su estru
 2. **Instalar dependencias**
 
     Instala las dependencias listadas en requirements.txt:
-        pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 3. **Configuración del proyecto**
 
