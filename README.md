@@ -57,6 +57,10 @@ Este es un proyecto de Django que permite subir un archivo CSV, validar su estru
 
     Si el archivo es válido, verás un mensaje de éxito. Si hay errores, se mostrarán con la fila y columna donde ocurrieron.
 
+## Contribuir
+
+Si deseas contribuir al proyecto, realiza un fork, crea una nueva rama con tus cambios y envía un pull request.
+
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
