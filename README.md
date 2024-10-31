@@ -36,10 +36,12 @@ Este es un proyecto de Django que permite subir un archivo CSV, validar su estru
         python manage.py migrate
 
 4. **Ejecutar el servidor de desarrollo**
+
      Inicia el servidor de desarrollo de Django:
         python manage.py runserver
 
 5. **Acceder a la aplicación**
+
     Abre tu navegador y ve a http://127.0.0.1:8000/validator/upload/ para probar la funcionalidad de carga y validación del archivo.
 
 ## Uso
